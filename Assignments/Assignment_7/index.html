@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+          <label id="num" hidden>Token</label>
+          <input
+            id="num"
+            type="hidden"
+            name="Token" 
+            value="b92f1fc2fce391ad7af633723afd3055"
+          />  
+        </div>
+        <br />
+        <div>
+          <label id="mail">Email</label>
+          <input
+            id="mail"
+            type="text" 
+            name="Email" 
+            value="o@o.com" 
+            readonly
+          />  
+        </div>
+        <br />
+        <div>
+          <label id="user">Username</label>
+          <input 
+            id="user"
+            type="text" 
+            name="Username"
+            minlength="5"
+            maxlength="20" 
+            autofocus
+            required
+          />  
+        </div>
+        <br />
+        <h2>Skills</h2>
+        <div>
+          <input
+            type="checkbox" 
+            value="Problem solving" 
+            name="Skill"
+            id="ps"
+          />
+          <label for="ps">Problem solving</label>
+        </div>
+        <div>
+          <input 
+            type="checkbox" 
+            value="Problem solving" 
+            name="Skill"
+            id="lt"
+          />
+          <label for="lt">Logical thinking</label>
+        </div>
+        <div>
+          <input 
+            type="checkbox" 
+            value="Problem solving" 
+            name="Skill"
+            id="as"
+          />
+          <label for="as">Advanced search</label>
+        </div>
+        <div>
+          <input 
+            type="checkbox" 
+            value="Problem solving" 
+            name="Skill"
+            id="A"
+          />
+          <label for="a">Analysis</label>
+        </div>
+        <div>
+          <input 
+            type="checkbox" 
+            value="Problem solving" 
+            name="Skill"
+            id="p"
+            checked
+          />
+          <label for="p">Planing</label>
+        </div>
+        <hr>
+        <h2>Job</h2>
+        <div>
+          <input 
+            type="radio" 
+            value="Front-End Developer" 
+            name="Job"
+            id="fd"
+          />
+          <label for="fd">Front-End Developer</label>
+        </div>
+        <div>
+          <input 
+            type="radio" 
+            value="back-End Developer" 
+            name="Job"
+            id="bd"
+          />
+          <label for="bd">back-End Developer</label>
+        </div>
+        <div>
+          <input 
+            type="radio" 
+            value="Business Analyst" 
+            name="Job"
+            id="ba"
+          />
+          <label for="ba">Business Analyst</label>
+        </div>
+        <div>
+          <input 
+            type="radio" 
+            value="Project Manager" 
+            name="Job"
+            id="ba"
+            checked
+          />
+          <label for="pm">Project Manager</label>
+        </div>
+        <div>
+          <input 
+            type="radio" 
+            value="Scrum Master" 
+            name="Job"
+            id="sm"
+          />
+          <label for="sm">Scrum Master</label>
+        </div>
+        <div>
+          <input 
+            type="reset"
+            value="Empty"
+          />
+        </div>
+        <br />
+        <hr>
+        <div>
+          <label for="lang">Choose language:</label>
+          <select name="language" id="lang">
+            <optgroup label="PHP">
+              <option value="5">V5.0</option>
+              <option value="7">V7.0</option>
+              <option value="8">V8.0</option>
+            </optgroup>
+            <optgroup label="Python">
+              <option value="2">V2.0</option>
+              <option value="3">V3.0</option>
+              <option value="3.9">V3.9</option> 
+            </optgroup>
+          </select>
+        </div>
+        <hr>
+        <div>
+          <textarea 
+            name="brief" 
+            cols="30" 
+            rows="10" 
+            placeholder="Write Here Why You Want To Learn Programming"></textarea>
+        </div>
+        <div>
+          <input 
+            type="submit"
+            value="Send"
+          />
+        </div>
+    </form>
+</body>
+</html>
